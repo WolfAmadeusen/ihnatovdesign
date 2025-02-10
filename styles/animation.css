@@ -1,0 +1,49 @@
+/* анимация при загрузки страницы */
+@keyframes fadeIn {
+   0% {
+      opacity: 0;
+      transform: translateY(-20px);
+   }
+
+
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+}
+
+
+@keyframes fadeInOpacity {
+   0% {
+      opacity: 0;
+   }
+
+   100% {
+      opacity:0.4;
+   }
+}
+
+
+@keyframes slideUp {
+   0% {
+      transform: translateY(20px);
+      opacity: 0;
+   }
+
+   100% {
+      transform: translateY(0);
+      opacity: 1;
+   }
+}
+
+@keyframes GradientMove {
+   0% {
+      background: linear-gradient(to bottom right, #ff99cc, #e62ee2, #1d0033);
+   }
+   50% {
+      background: linear-gradient(to bottom right, #e62ee2, #ff00ff, #660066);
+   }
+   100% {
+      background: linear-gradient(to bottom right, #1d0033, #660066, #ff00ff);
+   }
+}
